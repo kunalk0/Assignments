@@ -1,0 +1,63 @@
+1.Explain the use of JavaScript ( or What you can do using a JavaScript)
+Ans-
+Initially, JavaScript could only be used on the client-side – that is, web browsers. But with Node.js, a cross-platform runtime environment for JavaScript, code can be written and executed server-side.
+What you can do using a JavaScript -
+1.Web Browsers
+2.Mobile App
+3.Desktop App
+4.Backend
+5.Apis
+6.Cloud
+7.DSA
+8.Typescript
+9.Machine Learning
+10.Blockchain
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2.What is the difference between client-side and server-side?
+Ans-
+*Client-side  means that the processing takes place on the user’s computer. It requires browsers to run the scripts on the client machine without involving any processing on the server.
+
+1.Does not need interaction with the server
+2.Runs on the user’s computer
+3.Reduces load on the server’s proccessing unit
+4.Languages used: HTML, CSS
+
+*Server-side means that the processing takes place on a web server.
+
+1.Requires interaction with the server
+2.Runs on the web server
+3.Allows the server to provide dynamic websites tailored to the user. Increases the processing load on server.
+4.Languages used: PHP
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3.What is Nodejs?
+Ans-
+Node.js is a server-side platform built on Google Chrome's JavaScript Engine (V8 Engine). Node.js was developed by Ryan Dahl in 2009.
+Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications. 
+Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows.
+Node.js also provides a rich library of various JavaScript modules which simplifies the development of web applications using Node.js to a great extent.
+
+Node.js = Runtime Environment + JavaScript Library
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4.Explain Scope in JavaScript
+Ans-
+The scope is a policy that manages the availability of variables. A variable defined inside a scope is accessible only within that scope, but inaccessible outside.
+
+In JavaScript, scopes are created by code blocks, functions, modules.
+
+While const and let variables are scoped by code blocks, functions or modules, var variables are scoped only by functions or modules.
+
+Scopes can be nested. Inside an inner scope you can access the variables of an outer scope.
+
+The lexical scope consists of the outer function scopes determined statically. Any function, no matter the place where being executed, can access the variables of its lexical scope (this is the concept of closure).
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5.JavaScript is asynchronous or synchronous.
+Ans-
+JavaScript is synchronous by default .
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6.JavaScript is Single-threaded or Multi-threaded.
+Ans-
+JavaScript is single threaded and only one line of code can be executed at any given time.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+7.Explain DOM in your own word.
+Ans-
+Document Object Model (DOM) is a programming interface for web documents.
