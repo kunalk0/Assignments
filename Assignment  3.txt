@@ -1,0 +1,54 @@
+1.List all the Escape Sequences characters in javascript.
+Ans-
+JavaScript uses the \ (backslash) as an escape characters for:
+
+1.\' single quote
+2.\" double quote
+3.\ backslash
+4.\n new line
+5.\r carriage return
+6.\t tab
+7.\b backspace
+8.\f form feed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2.Explain with example length and substring methods in javascript.
+Ans- 
+ 1.Length Property -
+The length property returns the length of a string:
+Example
+let txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let length = console.log(txt.length);
+//26
+   2.Substring Method -
+substring method basically gets a part of the original string and returns it as a new string. 
+Example
+let myString = "I am learning JavaScript and it is cool!";
+console.log(myString.substring(0,23))
+//"I am learning JavaScrip"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3.What are padStart and padEnd in javascript, explain with an example.
+Ans-
+The padStart() method pads a string with another string to a certain length from the start of the string and returns a resulting string that reaches a certain length.
+Example
+let str = '1234'.padStart(8,'0');
+console.log(str); // "00001234"
+
+padEnd() method pads from the end of the string. 
+Example
+str = 'abc'.padEnd(5,'*');
+console.log(str); // "abc**"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4.Define Global Object in javascript along with the global scope.
+Ans-
+A global object is an object that always exists in the global scope.In JavaScript, there's always a global object defined. In a web browser, when scripts create global variables defined with the var keyword, they're created as members of the global object.
+
+In a programming environment, the global scope is the scope that contains, and is visible in, all other scopes.
+In client-side JavaScript, the global scope is generally the web page inside which all the code is being executed.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5. List all the names of Javascript engines present currently. 
+Ans-
+1.V8
+2.Chakra
+3.Spider Monkey
+4.Webkit
+5.Rhino
